@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {useState, useEffect} from 'react';
-import students from "../data/students";
 import BASE_URL from '../data/config';
 
 const StudentList = (param) => {
